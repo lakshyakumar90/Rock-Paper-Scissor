@@ -71,3 +71,15 @@ img:hover {
   padding: 2.1vmin;
   border-radius: 1.2rem;
 }
+
+@media (max-width: 450px){
+  #msg {
+    font-size: medium;
+  }
+  #user-score, #comp-score {
+    font-size: 2.4rem;
+  }
+  .score-board {
+    font-size: 1rem;
+  }
+}
