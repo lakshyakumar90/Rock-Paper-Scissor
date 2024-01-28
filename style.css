@@ -59,7 +59,7 @@ img:hover {
 }
 
 .msg-container {
-  margin-top: 6vmin;
+  margin-top: 9vmin;
 }
 
 #msg {
@@ -68,8 +68,8 @@ img:hover {
   background-color: #081b31;
   display: inline;
   color: #fff;
-  padding: 2.1vmin;
-  border-radius: 1.2rem;
+  padding: 2.1vmin 3vmin;
+  border-radius: 2vmin;
 }
 
 @media (max-width: 450px){
@@ -82,4 +82,7 @@ img:hover {
   .score-board {
     font-size: 1rem;
   }
+  .msg-container {
+  margin-top: 12vmin;
+}
 }
